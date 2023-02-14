@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;500;600&family=Shadows+Into+Light&display=swap');
+
+input, button {
+    border: solid 1px #555B6E;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0;
+}
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 2px 0 0 2px;
+    color: #888c9c;
+    border: solid 1px #888c9c;
+    padding: 0 8px 0 10px;
+    margin-left: 1%;
+}
+
+button {
+    width: 70px;
+    height: 42px;
+    color:#fffdfd;
+    background-color:#8C30F5;
+    border:1px solid #380469 ;
+    border-radius: 0 2px 2px 0;
+    margin: 0.5em;
+    cursor:pointer;
+    transition:transform 0.3s ease ;
+}
+
+button:hover{
+    box-shadow:2px 15px 5px 0px hsla(0, 0%, 3%, 0.562);
+    background-color:#6308cc;
+    color:white;
+}
+
+article {
+    margin: 40px 0 10px 0;
+    color: #202845;
+}
+article, article > p {
+    color: #202845;
+}
+
+article> p:first-of-type {
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+img {
+    width: 490px;
+    border-radius: 5pt;
+}
+
+label {
+    display: block;
+    color: #050505;
+    margin-left:1%;
+}
